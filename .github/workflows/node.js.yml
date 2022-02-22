@@ -32,7 +32,7 @@ jobs:
     - name: Build and push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-       image: dattatrayd/git-hub-actions
+       image: dattatrayd/git-hub-action-frontend
        tags: latest
        registry: docker.io
        dockerfile: Dockerfile
