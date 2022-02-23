@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Build Process') {
             steps {
                 sh 'sudo docker build -t dattatrayd/frontend:latest .'
             }
