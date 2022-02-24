@@ -1,5 +1,5 @@
 # Description
-Module that contains UI code for the application react
+Module that contains UI code for the application
 
 # Local setup
 
