@@ -1,5 +1,5 @@
 # Description
-Module that contains UI code for the application application application
+Module that contains UI code for the application application application ...
 
 # Local setup
 
