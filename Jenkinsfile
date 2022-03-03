@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build Process') {
             steps {
-                sh 'sudo docker build -t dattatrayd/frontend:latest .'
+                sh 'sudo docker build -t dattatrayd/frontend-app:latest .'
             }
         }
          stage('Push Docker Image') 
@@ -14,7 +14,7 @@ pipeline {
        {
        sh "sudo docker login -u dattatrayd -p ${dockerHubPassword}"
 	}
-    	sh 'sudo docker push dattatrayd/frontend:latest'
+    	sh 'sudo docker push dattatrayd/frontend-app:latest'
             }
         }
        
